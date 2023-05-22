@@ -60,7 +60,7 @@ onMounted(() => {
           type="text"
           name="content"
           id="content"
-          placeholder="qu'elle est votre tâche?"
+          placeholder="Quelle est votre tâche?"
           v-model="input_content"
         />
 
@@ -105,7 +105,7 @@ onMounted(() => {
           :key="todo.id"
         >
           <label>
-            <!-- donne la couleur pour conniaatre la catégorie -->
+            <!-- donne la couleur pour connaitre la catégorie -->
             <input type="checkbox" v-model="todo.done" />
             <span
               :class="`bubble ${
